@@ -1,0 +1,25 @@
+choc=150
+bread=50
+cake=100
+perfume=250
+juice=200
+cname=input('enter name:')
+cphno=int(input('enter phno:') 
+ch=int(input('enter no of choc:'))
+bd=int(input('enter no of bread:'))
+ck=int(input('enter no of cake:'))
+pf=int(input('enter no of perfume:'))
+ju=int(input('enter no of juice:'))
+bill=(choc*ch)+(bread*bd)+(cake*ck)+(perfume*pf)+(juice*ju)
+if bill>5000 :
+   disc=bill*10/100
+   tax=bill*10/100
+elif bill>3000 :
+   disc=bill*8/100
+   tax=bill*10/100
+elif bill>2000 :
+   disc=bill*5/100
+   tax=bill*18/100
+elif bill>1000 :
+   disc=bill*3/100
+   tax=bill*18/100
